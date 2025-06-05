@@ -1,11 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, Input, input} from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-img',
-  imports: [],
+  selector: 'appimg',
+  imports: [
+
+  ],
   templateUrl: './img.html',
   styleUrl: './img.scss'
 })
-export class Img {
+
+
+export class img {
+
+  @Input() img: String ='valor inicial';
+
+
+
 
 }

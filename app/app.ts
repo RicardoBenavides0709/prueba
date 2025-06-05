@@ -1,13 +1,22 @@
+import { FormsModule } from '@angular/forms';
+import { CommonModule, NgIf } from '@angular/common';
 import { Component } from '@angular/core';
+import { img } from './components/img/img';
 import { RouterOutlet } from '@angular/router';
-import { Img } from './components/img/img';
+
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone:true,
+  imports: [img,
+    FormsModule,
+  ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'mystore';
+  imgParent = '';
 }
+
+//https://www.w3schools.com/howto/img_avatar.png
