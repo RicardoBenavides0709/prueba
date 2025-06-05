@@ -1,5 +1,5 @@
 import { FormsModule } from '@angular/forms';
-import { CommonModule, NgIf } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { img } from './components/img/img';
 import { RouterOutlet } from '@angular/router';
