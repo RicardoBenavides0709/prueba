@@ -11,6 +11,7 @@ import { RouterOutlet } from '@angular/router';
   standalone:true,
   imports: [img,
     FormsModule,
+    CommonModule
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
